@@ -64,3 +64,7 @@ java sdk 1.8+
 ```
 ##### RabbitMQ
 please install RabbitMQ to activate local messagequeue server
+
+
+### Credit 
+1. Binance Connector: https://github.com/binance/binance-connector-java
