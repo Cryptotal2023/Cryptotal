@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: transaction-producer
+  mvc:
+    servlet:
+      path: /transaction-producer
+server:
+  port: 8090
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+app:
+  cors:
+    allowedOrigins: http://localhost:3000,http://localhost:8080,http://localhost:50001
