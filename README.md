@@ -36,7 +36,7 @@ If you want to install on your local side, follow here.
 Our product landing page: 
 
 ### Frontend
-
+Note that you should provide your own Google API Key for OAuth to work. 
 #### Install Local
 ```
 cd typescript-version
@@ -51,6 +51,7 @@ cd DBScripts
 ```
 install MySQL and run all MySQL scripts
 ### Backend
+Note that you should provide your own Google API Key for OAuth to work. 
 #### Install Local Java Backend
 ```
 cd backend
