@@ -68,3 +68,4 @@ please install RabbitMQ to activate local messagequeue server
 
 ### Credit 
 1. Binance Connector: https://github.com/binance/binance-connector-java
+2. ThirdWeb Api: https://portal.thirdweb.com/
